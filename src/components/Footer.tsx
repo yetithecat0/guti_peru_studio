@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { MapPin, Mail, Instagram, Facebook } from "lucide-react";
-import { SITE_NAME, SITE_LOCATION, SITE_EMAIL, SOCIAL_LINKS } from "@/lib/constants";
+import { SITE_NAME, SITE_LOCATION, SITE_EMAIL, SOCIAL_LINKS, PHOTOGRAPHER_FULL_NAME } from "@/lib/constants";
 
 // Ícono SVG de TikTok (no disponible en lucide-react)
 function TikTokIcon({ size = 20 }: { size?: number }) {
@@ -115,8 +115,8 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-12 border-t border-white/5 text-center">
         <div className="flex flex-col gap-6 items-center">
           <p className="font-[family-name:var(--font-body)] text-[10px] text-[#d1c5b5]/50 uppercase tracking-[0.2em]">
-            © {currentYear} {SITE_NAME}. {SITE_LOCATION}. Todos los derechos
-            reservados.
+            © {currentYear} {PHOTOGRAPHER_FULL_NAME} — {SITE_NAME}. 
+            {SITE_LOCATION}. Todos los derechos reservados.
           </p>
           <div className="w-12 h-px bg-[#b8965a]/20" />
           <p className="font-[family-name:var(--font-body)] text-[9px] text-[#d1c5b5]/30 uppercase tracking-[0.3em]">

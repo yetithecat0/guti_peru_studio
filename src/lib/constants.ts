@@ -3,6 +3,7 @@
 
 export const SITE_NAME = "GUTI PERÚ STUDIO";
 export const PHOTOGRAPHER_NAME = "Arturo C. Gutiérrez";
+export const PHOTOGRAPHER_FULL_NAME = "Luis Arturo Caccha Gutiérrez";
 export const PHOTOGRAPHER_INSTAGRAM = "https://instagram.com/arturocguti18";
 export const SITE_TAGLINE = "Fotografía & Audiovisual";
 export const SITE_LOCATION = "Jesús María, Lima, Perú";
