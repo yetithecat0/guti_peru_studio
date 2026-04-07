@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/og-image.jpg", // Asegúrate de subir esta imagen a public/
+        url: "https://gutiperu.com/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Guti Perú Studio — Fotografía & Audiovisual",
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Guti Perú Studio — Fotografía & Audiovisual",
     description: "Estudio fotográfico profesional en Jesús María, Lima.",
-    images: ["/og-image.jpg"],
+    images: ["https://gutiperu.com/og-image.jpg"],
   },
   robots: {
     index: true,
